@@ -42,7 +42,7 @@ stages:
             provider: 'azurerm'
             command: 'apply'
             workingDirectory: '$(System.DefaultWorkingDirectory)/environment/dev'
-            commandOptions: '-auto -approved'
+            commandOptions: '-auto-approve'
             environmentServiceNameAzureRM: 'service_connection'
             
         
